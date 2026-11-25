@@ -3,16 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Nano Credit Line – Mock</title>
+    <title>Fictional finance UI demo</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-neutral-100 text-gray-900 antialiased">
     <!-- App shell (mobile width) -->
     <main class="mx-auto min-h-screen max-w-[430px] p-4 sm:py-8">
+      <div class="mb-4 rounded-xl border-2 border-amber-500 bg-amber-100 p-3 text-center text-sm font-bold text-amber-950" role="note">
+        UI DEMO — NOT A REAL BANK — NOT AFFILIATED WITH ANY BANK
+      </div>
       <!-- Header notice -->
       <header class="space-y-2 pt-2">
         <h1 class="text-[28px] leading-8 font-semibold">
-          You have Nano Credit Line offer to proceed.
+          Fictional sample offer for interface demonstration only.
         </h1>
         <div class="flex items-center gap-2 text-emerald-600">
           <div class="flex items-center gap-1">
@@ -20,7 +23,7 @@
             <span class="size-2 rounded-full bg-emerald-300 inline-block"></span>
           </div>
           <p class="text-sm font-medium">
-            Check within 08 Sep 25 8:00 PM
+            No real offer, account, or deadline
           </p>
           <svg xmlns="http://www.w3.org/2000/svg" class="size-4 opacity-80" viewBox="0 0 24 24" fill="currentColor">
             <path d="M12 22a10 10 0 1 1 10-10 10.011 10.011 0 0 1-10 10zm1-10V7a1 1 0 0 0-2 0v6a1 1 0 0 0 .293.707l3 3a1 1 0 1 0 1.414-1.414L13 12z"/>
@@ -35,44 +38,44 @@
           <div class="pointer-events-none absolute inset-0 bg-gradient-to-b from-white/10 via-transparent to-black/10"></div>
 
           <div class="relative">
-            <p class="text-lg font-semibold tracking-tight">Main Account</p>
+            <p class="text-lg font-semibold tracking-tight">Demo Account</p>
 
             <div class="mt-2 flex items-end gap-2">
-              <span class="text-[42px] leading-none font-bold">฿91.92</span>
+              <span class="text-[42px] leading-none font-bold">฿0.00</span>
             </div>
 
             <p class="mt-3 text-sm/5 text-white/90">
-              KBank Account xxx-x-x4535-x
+              Fictional account • no funds or account access
             </p>
-            <p class="text-xs text-white/70">Powered by KBank</p>
+            <p class="text-xs text-white/70">Interface demonstration only</p>
           </div>
         </div>
 
         <!-- Actions -->
         <div class="border-t border-white/15 px-3 py-3">
           <div class="grid grid-cols-3">
-            <!-- Withdraw -->
-            <button class="flex flex-col items-center gap-1 rounded-xl py-3 hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white/40">
+            <!-- Disabled demo action -->
+            <button type="button" disabled aria-disabled="true" class="flex cursor-not-allowed flex-col items-center gap-1 rounded-xl py-3 opacity-60">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="size-6" fill="currentColor">
                 <path d="M7 10a1 1 0 0 1 1-1h2V5H8a1 1 0 1 1 0-2h8a1 1 0 1 1 0 2h-2v4h2a1 1 0 1 1 0 2H8a1 1 0 0 1-1-1zm-2 5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z"/>
               </svg>
-              <span class="text-xs font-medium">Withdraw</span>
+              <span class="text-xs font-medium">Unavailable</span>
             </button>
 
-            <!-- Scan QR -->
-            <button class="flex flex-col items-center gap-1 rounded-xl py-3 hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white/40">
+            <!-- Disabled demo action -->
+            <button type="button" disabled aria-disabled="true" class="flex cursor-not-allowed flex-col items-center gap-1 rounded-xl py-3 opacity-60">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="size-6" fill="currentColor">
                 <path d="M4 4h5v2H6v3H4V4zm10 0h6v5h-2V6h-4V4zM4 15h2v3h3v2H4v-5zm14 0h2v5h-5v-2h3v-3zM9 9h6v6H9z"/>
               </svg>
-              <span class="text-xs font-medium">Scan QR</span>
+              <span class="text-xs font-medium">Unavailable</span>
             </button>
 
-            <!-- Transfer -->
-            <button class="flex flex-col items-center gap-1 rounded-xl py-3 hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white/40">
+            <!-- Disabled demo action -->
+            <button type="button" disabled aria-disabled="true" class="flex cursor-not-allowed flex-col items-center gap-1 rounded-xl py-3 opacity-60">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="size-6" fill="currentColor">
                 <path d="M16.293 7.293a1 1 0 0 1 1.414 0L21 10.586l-3.293 3.293a1 1 0 1 1-1.414-1.414L17.586 12H8a1 1 0 1 1 0-2h9.586l-1.293-1.293a1 1 0 0 1 0-1.414zM7.707 16.707a1 1 0 0 1-1.414 0L3 13.414 6.293 10.12a1 1 0 1 1 1.414 1.415L6.414 12H16a1 1 0 1 1 0 2H6.414l1.293 1.293a1 1 0 0 1 0 1.414z"/>
               </svg>
-              <span class="text-xs font-medium">Transfer</span>
+              <span class="text-xs font-medium">Unavailable</span>
             </button>
           </div>
         </div>
@@ -88,8 +91,8 @@
             </svg>
           </div>
           <div>
-            <h3 class="text-base font-semibold">Credit Line</h3>
-            <p class="text-sm text-gray-500">Not limited to salary earner</p>
+            <h3 class="text-base font-semibold">Sample card</h3>
+            <p class="text-sm text-gray-500">No financial product is offered</p>
           </div>
         </article>
 
@@ -101,12 +104,12 @@
             </svg>
           </div>
           <div>
-            <h3 class="text-base font-semibold">Credit Line</h3>
-            <p class="text-sm text-gray-500">Not limited to salary earner</p>
+            <h3 class="text-base font-semibold">Sample card</h3>
+            <p class="text-sm text-gray-500">No financial product is offered</p>
           </div>
         </article>
 
-        <!-- Credit Line teaser -->
+        <!-- Demo information card -->
         <article class="flex items-center gap-3 rounded-2xl bg-white p-4 shadow">
           <div class="flex size-9 items-center justify-center rounded-full bg-amber-100">
             <svg xmlns="http://www.w3.org/2000/svg" class="size-5 text-amber-600" viewBox="0 0 24 24" fill="currentColor">
@@ -114,8 +117,8 @@
             </svg>
           </div>
           <div>
-            <h3 class="text-base font-semibold">Credit Line</h3>
-            <p class="text-sm text-gray-500">Not limited to salary earner</p>
+            <h3 class="text-base font-semibold">Sample card</h3>
+            <p class="text-sm text-gray-500">No financial product is offered</p>
           </div>
         </article>
       </section>
